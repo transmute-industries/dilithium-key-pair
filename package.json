@@ -1,0 +1,32 @@
+{
+  "name": "@transmute/dilithium-key-pair",
+  "version": "0.7.0-unstable.57",
+  "description": "Dilithium is a digital signature scheme that is strongly secure under chosen message attacks based on the hardness of lattice problems over module lattices.",
+  "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "util"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/transmute-industries/dilithium-key-pair",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/transmute-industries/dilithium-key-pair.git"
+  },
+  "scripts": {
+    "prepare": "npm run build",
+    "prebuild": "cd ./util && make web",
+    "build": "tsdx build",
+    "test": "tsdx test"
+  },
+  "devDependencies": {
+    "jest": "^27.4.4",
+    "ts-jest": "^27.1.3",
+    "tsdx": "^0.14.1"
+  }
+}
