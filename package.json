@@ -22,7 +22,8 @@
     "prepare": "npm run build",
     "prebuild": "cd ./util && make web",
     "build": "tsdx build",
-    "test": "tsdx test"
+    "test": "tsdx test",
+    "publish:unstable": "npm version patch && npm publish"
   },
   "devDependencies": {
     "jest": "^27.4.4",
