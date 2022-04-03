@@ -1,6 +1,6 @@
 ### @transmute/dilithium-key-pair
 
-[![CI](https://github.com/transmute-industries/dilithium-key-pair/actions/workflows/ci.yml/badge.svg)](https://github.com/transmute-industries/dilithium-key-pair/actions/workflows/ci.yml)
+[![CI](https://github.com/transmute-industries/dilithium-key-pair/actions/workflows/ci.yml/badge.svg)](https://github.com/transmute-industries/dilithium-key-pair/actions/workflows/ci.yml) [![CD](https://github.com/transmute-industries/dilithium-key-pair/actions/workflows/cd.yml/badge.svg)](https://github.com/transmute-industries/dilithium-key-pair/actions/workflows/cd.yml)
 
 > Dilithium is a digital signature scheme that is strongly secure under chosen message attacks based on the hardness of lattice problems over module lattices.
 
