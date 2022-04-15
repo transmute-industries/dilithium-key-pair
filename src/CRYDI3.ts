@@ -1,4 +1,4 @@
-const dilithium = require("../../util/api");
+const dilithium = require("../util/api");
 
 export const signer = (privateKeyJwk: any) => {
   return {

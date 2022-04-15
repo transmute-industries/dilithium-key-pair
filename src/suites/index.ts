@@ -1,4 +1,4 @@
-import * as CRYDI3 from "./CRYDI3";
+import * as CRYDI3 from "../CRYDI3";
 
 export { CRYDI3 };
 
