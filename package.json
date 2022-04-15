@@ -19,7 +19,6 @@
     "url": "https://github.com/transmute-industries/dilithium-key-pair.git"
   },
   "scripts": {
-    "prepare": "npm run build",
     "prebuild": "cd ./util && make web",
     "build": "tsdx build",
     "postbuild": "cp ./util/dilithium.js ./dist/dilithium.js",
