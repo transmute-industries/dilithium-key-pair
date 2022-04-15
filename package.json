@@ -1,6 +1,6 @@
 {
   "name": "@transmute/dilithium-key-pair",
-  "version": "0.7.0-unstable.57",
+  "version": "0.7.0",
   "description": "Dilithium is a digital signature scheme that is strongly secure under chosen message attacks based on the hardness of lattice problems over module lattices.",
   "license": "Apache-2.0",
   "main": "dist/index.js",
